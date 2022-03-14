@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="http://www.example.com/subscribe.php" method="get">
+        <p>Username:
+            <input type="text" name="username" maxlength="30" />
+           </p>
+           <p>Password:
+            <input type="password" name="password" maxlength="30" />
+           </p>
+           <p>What did you think of this gig?</p>
+            <textarea name="comments" cols="40" rows="8">Enter your comments...</textarea>
+           <input type="submit" value="Login">
+    </form>
+    <form action="http://www.example.com/profile.php">
+        <p>Please select your favorite genre:
+         <br />
+         <input type="radio" name="genre" value="rock" checked > Rock
+         <input type="radio" name="genre" value="pop" >
+         Pop
+         <input type="radio" name="genre" value="jazz" >
+         Jazz
+        </p>
+        <input type="submit" value="Submit">
+    </form>
+    <form action="http://www.example.com/profile.php">
+        <p>Please select your favorite music service(s):
+         <br />
+         <input type="checkbox" name="service"
+         value="itunes" checked /> iTunes
+         <input type="checkbox" name="service"
+         value="lastfm" /> Last.fm
+         <input type="checkbox" name="service"
+         value="spotify" /> Spotify
+        </p>
+        <input type="submit" value="Submit">
+        </form>
+    <form action="http://www.example.com/profile.php">
+            <p>What device do you listen to music on?</p>
+            <select name="devices">
+             <option value="ipod">iPod</option>
+             <option value="radio">Radio</option>
+             <option value="computer" selected>Computer</option>
+            </select>
+        <input type="submit" value="Submit">
+        </form>
+
+    <form action="http://www.example.com/upload.php" method="post">
+        <p>Upload your song in MP3 format:</p>
+        <input type="file" name="user-song" /><br />
+        <input type="submit" value="Upload" />
+    </form>
+
+    <form action="http://www.example.com/add.php">
+        <button type="button"><img src="images/add.gif" alt="add"
+         width="10" height="10" /> Add</button>
+        <input type="hidden" name="bookmark"
+         value="lyrics" />
+        </form>
+
+    <form>
+        <label>Age: <input type="text" name="age" /></label>
+        <br />
+        Gender:
+        
+        <label>
+            <input type="radio" name="gender" value="f">
+            Female
+        </label>
+        <input id="male" type="radio" name="gender" value="m">
+        <label for="male">Male</label>
+    </form> -->
+
+    <!-- <fieldset>
+        <legend>Contact details</legend>
+        <label>Email:<br />
+        <input type="text" name="email" /></label><br />
+        <label>Mobile:<br />
+        <input type="text" name="mobile" /></label><br />
+        <label>Telephone:<br />
+        <input type="text" name="telephone" /></label>
+        </fieldset>
+
+    <form action="http://www.example.com/login/" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" placeholder="johndoe" required /></title><br />
+        <label for="password">Password:</label>
+        <input type="password" name="password" required />
+        <input type="submit" value="Submit" />
+    </form>
+
+    <form action="http://www.example.com/bookings/" method="post">
+        <label for="username">Departure date:</label>
+        <input type="email" name="depart" />
+        <input type="time" name="time" />
+        <input type="submit" value="Submit" />
+    </form>
+
+    <form action="http://www.example.org/search.php">
+        <p>Search:</p>
+        <input type="search" name="search" />
+        <input type="submit" value="Search" />
+        </form>
+</body>
+
+</html>

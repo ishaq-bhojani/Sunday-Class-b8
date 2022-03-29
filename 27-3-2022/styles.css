@@ -1,0 +1,62 @@
+/* *{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: green;
+    background-color: red;
+}
+
+p {
+    color: white;
+}
+
+#p1 {
+    border: solid 5px white;
+    color: white;
+}
+
+#p2 {
+    border: solid 5px brown;
+    color: white;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item.first-item{
+    border: solid 5px brown;
+}
+
+.item .link {
+    color: green;
+}
+
+h1 + ul {
+    font-weight: 800;
+} */
+
+
+/* .para {
+    color: red;
+} */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: blue;
+}
+p {
+    color: red;
+}
+
+/* #p1{
+    color: aqua;
+} */

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'myfont';
+    src: url('./Roboto/Roboto-Regular.ttf');}
+
+
+.primary{
+    color: rgb(112, 112, 240);
+}
+.secondary{
+    background-color: magenta;
+    color: #9a9a9a;
+}
+body{
+    font-family: 'myfont';
+    /* line-height: 20px; */
+}
+ul{
+    font-style: oblique;
+    font-stretch: condensed;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+/* h1{
+    font-weight: 100;
+} */

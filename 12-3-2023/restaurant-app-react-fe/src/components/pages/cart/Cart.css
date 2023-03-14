@@ -1,0 +1,94 @@
+.cart__header {
+  position: relative;
+  background-image: url("../../../assets/images/cartBg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart__header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: black;
+  opacity: 0.4;
+}
+
+.cart__header > h2 {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+}
+
+.cart__main {
+  padding: 3rem 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 25%;
+}
+
+.left > p {
+  color: #8a8888;
+  font-size: 14px;
+}
+
+.left > button {
+  width: 12rem;
+  font-weight: 600;
+  margin: 10px 0 30px 0;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.6rem;
+  margin-top: 7rem;
+}
+
+.right > h4 {
+  color: #626363;
+}
+
+.right > h4 > span {
+  color: #8a8888;
+}
+
+.right > button {
+  padding: 0.4rem 8rem;
+  font-weight: 600;
+  height: auto;
+}
+
+.right > p {
+  color: #8a8888;
+  font-size: 14px;
+}
+
+.primary-btn {
+  background-color: #c10a28;
+}
+
+.primary-btn:hover {
+  background-color: #f52b4d !important;
+}

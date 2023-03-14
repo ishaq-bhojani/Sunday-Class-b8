@@ -1,0 +1,38 @@
+.banner-slide-1 {
+  background-image: url("../../../../assets/images/banner1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.banner-slide-2 {
+  background-image: url("../../../../assets/images/banner2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.banner {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 90px 0 70px;
+}
+
+.content {
+  color: white;
+  margin-bottom: 30px;
+}
+.food-title {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 300;
+  margin-bottom: 22px;
+  letter-spacing: 0.3px;
+}
+
+.food-detail {
+  font-size: 46px;
+  line-height: 55px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: capitalize;
+}

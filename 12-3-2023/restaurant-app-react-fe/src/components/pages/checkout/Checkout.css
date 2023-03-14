@@ -1,0 +1,127 @@
+.checkout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/*************************
+*       Left Section     *
+**************************/
+
+.checkout__left-section {
+  width: 60%;
+  position: relative;
+  padding: 3rem 6rem 0 8rem;
+  color: #4f4f52;
+}
+
+.checkout__left-section > h2 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  word-spacing: 0.2rem;
+}
+
+.checkout__left-section > .ant-breadcrumb {
+  margin: 10px 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.checkout__left-section > .ant-breadcrumb .icon {
+  font-size: 0.7rem;
+}
+
+.checkout__left-section > h4 {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.checkout__left-section > .account-detail {
+  font-size: 0.8rem;
+  color: #787777;
+}
+
+.checkout__left-section > .logout {
+  margin-top: -3px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.checkout__left-section > h3 {
+  margin: 2rem 0 1rem 0;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.checkout__left-section > .footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 6rem 0 8rem;
+  padding: 1rem 0;
+  border-top: 2px solid #ededed;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #a7a4a4;
+}
+
+/*************************
+*      Right Section     *
+**************************/
+
+.checkout__right-section {
+  background-color: #f0f0f0;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-left: 2px solid #cac9c9;
+  padding: 4rem 7rem 0 2.4rem;
+}
+
+.cart-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding: 1.4rem 0;
+  border-top: 1px solid #cac9c9;
+  border-bottom: 1px solid #cac9c9;
+}
+
+.cart-details > div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #787777;
+}
+
+.cart-details > div .question-mark {
+  color: #787777;
+}
+
+.price {
+  font-weight: 900;
+  color: #525252;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.8rem;
+  font-weight: 600;
+  color: #474747;
+}
+
+.cart-total > span > span:nth-child(1) {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #787777;
+}
+
+.cart-total > span > span:nth-child(2) {
+  color: #343333;
+  font-size: 1.5rem;
+  font-weight: 500;
+}

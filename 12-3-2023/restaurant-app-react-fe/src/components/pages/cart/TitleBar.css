@@ -1,0 +1,30 @@
+.title-bar {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 1rem 0;
+  border-top: 1px solid #d3d4d6;
+}
+
+.title-bar > li {
+  list-style: none;
+  color: #818988;
+  font-weight: 600;
+}
+
+.title-bar > li:nth-child(1) {
+  width: 50%;
+}
+
+.title-bar > li:nth-child(2) {
+  width: 10%;
+}
+
+.title-bar > li:nth-child(3) {
+  width: 30%;
+}
+
+.title-bar > li:nth-child(4) {
+  width: 10%;
+  text-align: right;
+}

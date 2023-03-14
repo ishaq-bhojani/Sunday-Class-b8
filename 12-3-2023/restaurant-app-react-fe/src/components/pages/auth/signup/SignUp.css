@@ -1,0 +1,11 @@
+.form-wrapper {
+  border: 1px solid rgba(191, 189, 189, 0.5);
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}

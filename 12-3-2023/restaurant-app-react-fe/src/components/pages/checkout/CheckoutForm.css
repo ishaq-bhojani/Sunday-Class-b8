@@ -1,0 +1,51 @@
+.checkout-form .flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.checkout-form .ant-form-item {
+  width: 100%;
+  margin-bottom: 0.8rem;
+}
+
+.checkout-form .ant-select-selector {
+  height: auto !important;
+  padding: 4.5px !important;
+}
+
+.checkout-form input {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.checkout-form input::placeholder,
+.ant-select-selection-placeholder {
+  color: #b6b5b5 !important;
+}
+
+.checkout-form > .actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.4rem;
+}
+
+.checkout-form > .actions > .link {
+  font-weight: 600;
+  color: #4f4f52;
+}
+
+.checkout-form > .actions > button {
+  height: auto;
+  padding: 0.8rem 1.5rem;
+  background-color: #fbd501;
+  font-weight: 600;
+  color: #333334;
+}
+
+.checkout-form > .actions > button:hover,
+.checkout-form > .actions > button:active {
+  background-color: #f9dc37;
+  color: #333334;
+}
